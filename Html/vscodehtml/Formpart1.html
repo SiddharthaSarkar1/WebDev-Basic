@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Part 1</title>
+</head>
+<body>
+    <h1>Course Registration Form</h1>
+    <form>
+        <fieldset>
+        <legend>
+            Personal Information
+        </legend>
+        <b>First Name :</b><input type="text" name="texbox1" size="20"><br/><br/>
+        <b>Last Name :</b><input type="text" name="textbox2"><br/><br/>
+        <b>Password :</b><input type="password" name="pwd"><br/><br/>
+        <b>Gender :</b>
+        <input type="radio" name="gender" value="Male" checked>Male
+        <input type="radio" name="gender" value="Female">Female
+        <input type="radio" name="gender" value="Others">Others<br/><br/>
+        <b>Religion :</b><input type="Checkbox" name="c1" value="Hindu">Hindu
+                         <input type="Checkbox" name="c2" value="Muslim">Muslim
+    </fieldset><br/><br/>
+    <b>Department :</b>
+    <select name="department">
+        <option>MCA</option>
+        <option>CSE</option>
+        <option>ECE</option>
+        <option>BCA</option>
+
+    </select>
+    <p><p>Comment</p>
+    <textarea name="t1" rows="10" column="100">
+        Please write here
+    </textarea><br/><br/>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+    </form>
+</body>
+</html>
