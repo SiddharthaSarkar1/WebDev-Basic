@@ -1,0 +1,31 @@
+div{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    background-color: green;
+    border-radius: 50%;
+    animation: bounceBack 4s ease-in-out;
+}
+
+@keyframes bounceBack {
+    from {
+        transform: translateY(100px);
+    }
+    20%{
+        transform: translateY(-100px);
+    }
+    40%{
+        transform: translateY(50px);
+    }
+    60%{
+        transform: translateY(-50px);
+    }
+    80%{
+        transform: translateY(25px);
+    }
+    to{
+        transform: translateY(-25px);
+    }
+}

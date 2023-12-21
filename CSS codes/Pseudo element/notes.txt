@@ -1,0 +1,4 @@
+Before and after puesdo classes are used to add content before/after the content element.
+
+In Before and afteryou cannot skip content you must use it, if its blank use 
+content: '';

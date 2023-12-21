@@ -1,0 +1,15 @@
+div{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    background-color: red;
+    transition: all 1s ease-in-out;
+}
+
+div:hover{
+    /* transform: scale(1.5) translate(150px); */
+    transform: translate(150px) rotate(360deg);
+    border-radius: 50%;
+}
